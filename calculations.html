@@ -15,7 +15,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Helios in a completely unblockable web proxy, built with speed and privacy in mind.">
-    <title>wattesigma</title>
+    <title>Helios Browser</title>
     <style>body {
   margin: 0;
   padding: 0;
@@ -1848,13 +1848,13 @@ document.addEventListener('DOMContentLoaded', function() {
 ➥ 𝗱𝗮𝘁𝗮𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗼𝗿.𝗘𝘅𝗲𝗰𝘂𝘁𝗲𝗣𝗿𝗼𝗰𝗲𝘀𝘀.𝗙𝗮𝗶𝗹𝗲𝗱()
 
 𝗦𝘂𝗴𝗴𝗲𝘀𝘁𝗲𝗱 𝗔𝗰𝘁𝗶𝗼𝗻𝘀:
-• Visit and verify your browser is up to date.
+• Visit [https://github.com/dinguschan-owo/Helios] and verify your browser is up to date.
 • Ensure that the input data is correctly formatted and not null.
 • Scrub any injection attempts.
 • Review the initialization sequence for all dependent objects.
 • Check the logs for any preceding errors that may provide context.
 • Clear browser cache and clear and reset website data storage.
-• If all else fails, visit the above mentioned offical Github page and redownload the latest stable version (wattesigma v1.𝟽.0).
+• If all else fails, visit the above mentioned offical Github page [https://github.com/dinguschan-owo/Helios] and redownload the latest stable version (Helios v1.𝟽.0).
 `;
             document.body.appendChild(contentFetchingProtocolErrorOverlay);
         }
@@ -2019,11 +2019,11 @@ function updateTabContent(url, content, tab) {
 
     if (url === 'helios://start') {
         content.innerHTML = `<div class="Xt7Lm9Kp3R8f">
-  <p></p>
+  <p>𝙼𝚊𝚍𝚎 𝚋𝚢 𝚍𝚒𝚗𝚐𝚞𝚜𝚌𝚑𝚊𝚗!</p>
 </div><div class="top-right-boxaa">
   <p><i class="fa-brands fa-github"></i></p>
 </div>
-        <h23>wattesigma</h23>
+        <h23>Helios</h23>
         <h21>𝚟𝟷.𝟿.𝟶</h21>
         <div class="search-baraa">
           <div class="search-containeraa">
@@ -3051,12 +3051,12 @@ function hideSpinner(tabElement) {
 
 function downloadPage() {
     // Attempt to fetch from GitHub first
-    const url = "https://google.com";
+    const url = "https://raw.githubusercontent.com/";
     fetch(url)
         .then(response => response.blob())        .then(blob => {
             const a = document.createElement('a');
             a.href = URL.createObjectURL(blob);
-            a.download = "Helios-Offline.html";
+            a.download = "Heli.html";
             a.click();
         })
         .catch(error => {
@@ -3066,7 +3066,7 @@ function downloadPage() {
         });
 
     function fetchLocalFile() {
-        fetch('/Offline-File/Helios-Offline')
+        fetch('/Offline-File/Helios-Offl')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Failed to fetch from local server');
@@ -3087,7 +3087,7 @@ function downloadPage() {
 
         const a = document.createElement('a');
         a.href = url;
-        a.download = 'Helios-Offline';
+        a.download = 'Helio';
         document.body.appendChild(a);
 
         a.click();
